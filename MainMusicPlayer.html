@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="glow"></div>
+<div class="stars"></div>
+<div class="title">🎶 All in One Music Player 🎶</div>
+<div class="carousel-wrapper">
+  <div class="carousel" id="carousel">
+    <img src="https://res.cloudinary.com/duso4yho4/image/upload/v1747230170/maxresdefault_xbnqdb.jpg" data-audio="Pyar Kar - Dil To Pagal Hai 128 Kbps.mp3" data-title="Pyar Kar - Dil To Pagal Hai">
+    <img src="https://res.cloudinary.com/duso4yho4/image/upload/v1747230144/maxresdefault_rmm4kd.jpg" data-audio="Tera Naam Liya - Ram Lakhan 128 Kbps.mp3" data-title="Tera Naam Liya - Ram Lakhan">
+    <img src="https://res.cloudinary.com/duso4yho4/image/upload/v1747230106/maxresdefault_e2yxw7.jpg" data-audio="Haathon Ki Lakeeron Mein - Tera Mera Saath Rahen 128 Kbps.mp3" data-title="Haathon Ki Lakeeron Mein">
+    <img src="https://res.cloudinary.com/duso4yho4/image/upload/v1747230882/ab67616d0000b273b96494dc6eaedc90919365df_kq6j1k.jpg" data-audio="Dil To Pagal Hai - Dil To Pagal Hai 128 Kbps.mp3" data-title="Dil To Pagal Hai">
+    <img src="https://res.cloudinary.com/duso4yho4/image/upload/v1747231172/maxresdefault_fm21ki.jpg" data-audio="Ghar Se Nikalte - Papa Kehte Hain 128 Kbps.mp3" data-title="Ghar Se Nikalte - Papa Kehte Hain">
+    <img src="https://res.cloudinary.com/duso4yho4/image/upload/v1747330243/mqdefault_pekulo.jpg" data-audio="https://res.cloudinary.com/duso4yho4/video/upload/v1747330176/Kya_Hua_Tera_Vada_-_Hum_Kisise_Kum_Naheen_128_Kbps_mkdmnn.mp3" data-title="Hua_Tera_Vada_-_Hum_Kisise_Kum_Naheen">
+    <img src="https://res.cloudinary.com/duso4yho4/image/upload/v1747330419/hq720_ybrq2q.jpg" data-audio="https://res.cloudinary.com/duso4yho4/video/upload/v1747330468/Mere_Sapnon_Ki_Rani_-_Aradhana_128_Kbps_e8pkv5.mp3" data-title="Mere_Sapnon_Ki_Rani">
+    <img src="https://res.cloudinary.com/duso4yho4/image/upload/v1747330594/ab67616d0000b273246355ca25ba053ee8ad1d90_cfulrt.jpg" data-audio="https://res.cloudinary.com/duso4yho4/video/upload/v1747330694/Hamen_Tumse_Pyar_Kitna_-_Kudrat_128_Kbps_tacjiu.mp3" data-title="Hamen_Tumse_Pyar_Kitna">
+  </div>
+  <div class="song-list" id="songList">
+    <h3>🎧 Song List </h3>
+  </div>
+</div>
+<div class="audio-container">
+  <audio id="player" controls></audio>
+  <div class="controls">
+    <button id="prevBtn">&#9664; Prev</button>
+    <button id="nextBtn">Next &#9654;</button>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
